@@ -1,6 +1,19 @@
 .container{
-  border-style: solid;
-  border-color:aquamarine;
+  border-style: none;
   border-width:3px;
-  margin:auto;
+  margin:10 0;
+  width: 25%;
+  padding: 10%;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.66);
+}
+body{
+  background-image: url(images/ghana.jpg);
+  background-size:cover;
 }
