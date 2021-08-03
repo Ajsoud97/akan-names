@@ -22,7 +22,7 @@ function validate(){
       return false;
   }   
   else{
-    return true ;
+    return true;
   }
 }
 
@@ -71,8 +71,8 @@ function getGender(){
     else if(dayValue == -0){
       alert("You were born on "+dayNames[6] + " and Your akan name is " +maleNames[6]+"!");
     }
-  break;
-  case "female":
+    break;
+    case "female":
     if (dayValue == 1){
       alert("You were born on "+dayNames[0] + " and Your akan name is  " +femaleNames[0]+"!");
     }
