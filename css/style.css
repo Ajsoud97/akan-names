@@ -14,3 +14,9 @@ input {
   box-shadow: 0 0 15px 4px rgba(white);
 }
 
+h1{
+  color: red;
+}
+h4{
+  color:green;
+}
