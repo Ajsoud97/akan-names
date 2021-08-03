@@ -7,34 +7,29 @@
     <title>Akan Name Calculator</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-    <h1> Hello There, and Welcome to the Akan name calculator</h1>
-    <h2> Are you ready to get your Akan Name !?</h2>
-    <h3>Enter The following details below</h3>
-    <div class="container">
-      <form>
-        <div>\
-          <label for="yearofbirth">Year of Birth</label><br>
-          <input type="number" id="year" name="year" placeholder="Enter the year in which you were born e.g 2000" required><br>
-        </div>
-        <div>
-          <label for ="month">Month of Birth</label><br>
-          <input type="number" id="month" name="month" placeholder="Month of Birth"required><br>
-        </div>
-        <div>
-          <label for ="date">Date of Birth</label><br>
-          <input type="number" id="date" name="date" placeholder="Date of Birth" required><br>
-        </div>
-        <div>
-          <label for="male">Male
-          <input type="radio" id="male" name="male" >
-            </label>
-          <label for="female">Female
-            <input type="radio" id="female" name="female">
-          </label>
-        </div>
-        <input type="submit" value="submit">
-      </form>
-    </div>
+  <body class="body" >
+    <div>
+    <h1>The AKAN NAME CACLCULATOR !</h1>
+    <h4>What are Akan Names you might be wondering?</h4>
+    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+    <p>This app will help you get your akan name and discover what day of the week you were born on. <strong>Enter your birthday details below to find out</strong></p>
+  </div>
+  <div class="form">
+  <form name="form" onsubmit="validate()" class="form-control" >
+    <label for ="year"><strong>YEAR</strong></label><br>
+    <input type="number" id="year" name="year" placeholder="Enter Year of Birth"><br>
+    <label for="month"><strong>MONTH</strong></label><br>
+    <input type="number" id="month" name="month" placeholder="Enter Month: e.g 05 for MAY"><br>
+    <label for="day"><strong>DAY</strong></label><br>
+    <input type="number" id="date" name="date" placeholder="Enter Day of Month You were Born"><br>
+    <p>Please select your gender</p>
+    <label for="male">Male</label>
+    <input type='radio' id="male" name="gender"><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br>
+    <button type=submit onclick="getName();">Submit</button>
+  </form>
+</div>  
+<script src="js/script.js"></script>
   </body>
 </html>
