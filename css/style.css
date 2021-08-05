@@ -1,9 +1,10 @@
 .container{
   border-style: none;
+  background-color: rgba(255,255,255,0.5);
   border-width:3px;
-  margin:10 0;
-  width: 25%;
-  padding: 10%;
+  margin:20px;
+  width: 300px;
+  padding: 50px;
 }
 input {
   width: 100%;
@@ -14,9 +15,16 @@ input {
   box-shadow: 0 0 15px 4px rgba(white);
 }
 
-h1{
-  color: red;
+p{
+  font-weight: bolder;
 }
-h4{
-  color:green;
+.body{
+  background-image: url("../images/ghana.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+}
+#my-form{
+  background-color: transparent;
+  border-style: none;
 }
