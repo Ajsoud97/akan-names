@@ -14,6 +14,12 @@
         <h1>The AKAN NAME CACLCULATOR !</h1>
         <h4>What are Akan Names you might be wondering?</h4>
         <p class="text" >Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+        <p><strong>Male Names</strong>
+          Sunday: Kwasi, Monday: Kwadwo, Tuesday: Kwabena, Wednesday: Kwaku, Thursday:  Yaw, Friday: Kofi, Saturday: Kwame
+          <br>
+          <strong>Female Names</strong>
+          Sunday: Akosua, Monday: Adwoa, Tuesday: Abenaa, Wednesday: Akua, Thursday:  Yaa, Friday: Afua, Saturday: Ama
+        </p>
         <p class="text"> This app will help you get your akan name and discover what day of the week you were born on. <strong>Enter your birthday details below to find out</strong></p>
       </div>
       <div class="form">
@@ -25,13 +31,17 @@
           <label for="day"><strong>DAY</strong></label><br>
           <input type="number" id="date" name="date" placeholder="Enter Day of Month You were Born"><br>
           <p><strong>Please select your gender</strong></p>
-
-          <label for="male" class="radio-btn">Male
-          <input type='radio' id="male" name="gender"></label><br>
-          <label for="female" class="radio-btn">Female
-          <input type="radio" id="female" name="gender"></label><br>
+          <div id="male-radio">
+            <label for="male" class="radio-label">Male
+              <input type='radio' id="male" name="gender">
+            </label><br>
+          </div>
+          <div id="female-radio">
+            <label for="female" class="radio-label">Female
+              <input type="radio" id="female" name="gender">   
+            </label><br>
+          </div>
           <button class="btn btn-warning" type=submit onclick="getName();">Submit</button>
-          
         </form>
       </div>
     </div>    
